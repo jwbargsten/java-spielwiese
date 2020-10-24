@@ -1,8 +1,9 @@
-package org.bargsten;
+package org.bargsten.di.impl;
 
 import com.typesafe.config.Config;
 import io.vavr.collection.List;
 import lombok.extern.slf4j.Slf4j;
+import org.bargsten.di.api.FileService;
 import software.amazon.awssdk.core.ResponseBytes;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.GetObjectRequest;

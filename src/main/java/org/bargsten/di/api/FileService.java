@@ -1,4 +1,4 @@
-package org.bargsten;
+package org.bargsten.di.api;
 
 import io.vavr.collection.List;
 

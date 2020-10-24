@@ -1,15 +1,16 @@
-package org.bargsten;
+package org.bargsten.di.impl;
 
 import com.google.inject.Inject;
 import io.vavr.collection.List;
 import lombok.extern.slf4j.Slf4j;
+import org.bargsten.di.api.FileService;
 
 @Slf4j
-public class InputServiceImpl {
+public class InputService {
     final FileService fileService;
 
     @Inject
-    public InputServiceImpl(FileService fileService) {
+    public InputService(FileService fileService) {
         this.fileService = fileService;
     }
 
